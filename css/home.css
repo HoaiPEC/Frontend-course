@@ -134,12 +134,11 @@ header {
     text-align: center;
 }
 .section-about, .edu-ex {
-    width: 80%;
     margin: auto;
     padding-bottom: 30px;
 }
 .expertises {
-    background: #313552 !important;
+    background: rgba(49,53,82,.25);
 }
 .text-about {
     text-align: center;
@@ -149,7 +148,7 @@ header {
 }
 .about-description {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .summary {
     width: 70%;
@@ -162,6 +161,9 @@ header {
 .name, .mail-to {
     color: #20c997;
     text-decoration: none;
+}
+.contact-info {
+    width: 30%;
 }
 .contact-info li {
     list-style-type: none;
@@ -197,14 +199,16 @@ header {
 }
 .education, .experience {
     width: 48%;
+    margin-top: 32px;
 }
 .ex-item {
-    background: #293238;
+    background: #2c304a;
     visibility: visible;
     animation-duration: 1.5s;
     animation-name: fadeInUp;
-    border: 1px solid #3b3e3e;
+    border: 1px solid rgba(255,197,118,.75);
     margin-bottom: 28px;
+    animation-delay: .3s;
 }
 .section-subHead {
     color: #ffffff;
@@ -217,4 +221,42 @@ header {
 }
 .ex-item:hover {
     transform: translateY(-0.5rem) scale(1.01);
+}
+.ex-item h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.ex-item div {
+    padding-left: 1.5rem;
+}
+.ex-item h6 {
+    background: #fd735a;
+    color: #fff;
+    font-weight: 700;
+    border-radius: .25rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: -12px;
+}
+.ex-item p {
+    margin-top: -10px;
+}
+.section-expertises h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+.section-expertises h2:after {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    width: 10%;
+    content: "";
+    margin: 44px auto auto;
 }

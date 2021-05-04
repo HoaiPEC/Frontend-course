@@ -14,3 +14,15 @@ p {
 li {
     color: #c2c0bd;
 }
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(49,53,82,.25);
+    z-index: 999;
+    flex-flow: row nowrap;
+}
+.visible-title {
+    visibility: visible;
+}

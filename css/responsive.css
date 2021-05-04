@@ -4,3 +4,12 @@
     }
 
 }
+@media only screen and (min-width: 1440px) {
+    .about-description {
+        width: 60%;
+        margin: auto;
+    }
+    .edu-ex {
+        width: 60%;
+    }
+}
