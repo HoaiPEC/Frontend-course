@@ -2,7 +2,12 @@
     .content {
         margin-top: 50px;
     }
-
+    .summary {
+        margin-left: 3%;
+    }
+    .contact-info {
+        margin-right: 3%;
+    }
 }
 @media only screen and (min-width: 1440px) {
     .about-description {
